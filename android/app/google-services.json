@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "87589753255",
+    "project_id": "my-akdemix",
+    "storage_bucket": "my-akdemix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87589753255:android:36f415c177a9b1bb95a682",
+        "android_client_info": {
+          "package_name": "com.example.com_akdemix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87589753255-24knr9h5mp7n1ulh6ngr9qqh9brc0lm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOgYI4aF1JNE4VFOoEHK2J8YSx_bcCEc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87589753255-24knr9h5mp7n1ulh6ngr9qqh9brc0lm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
