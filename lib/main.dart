@@ -1,3 +1,4 @@
+import 'package:com_akdemix/src/features/authentication/screens/welcome_screens.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -22,25 +23,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Akdemix',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends ConsumerWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: const Center(
-        child: Text('Myhome Page'),
-      ),
+      home: const WelcomeScreen(),
     );
   }
 }
