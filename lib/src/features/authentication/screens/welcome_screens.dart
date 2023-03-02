@@ -1,5 +1,5 @@
 import 'package:com_akdemix/src/common_widgets/custtom_button.dart';
-import 'package:com_akdemix/src/features/authentication/screens/register_Screen.dart';
+import 'package:com_akdemix/src/features/authentication/screens/register_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 

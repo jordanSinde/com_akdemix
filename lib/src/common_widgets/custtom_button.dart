@@ -6,7 +6,11 @@ class CustomButton extends ConsumerWidget {
   final String text;
   final VoidCallback onPressed;
 
-  const CustomButton({super.key, required this.text, required this.onPressed});
+  const CustomButton({
+    super.key,
+    required this.text,
+    required this.onPressed,
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
