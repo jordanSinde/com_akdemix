@@ -54,7 +54,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
                       color: primaryColor.withOpacity(0.4),
                     ),
                     child: Image.asset(
-                      "assets/image2.png",
+                      "assets/images/image2.png",
                     ),
                   ),
                   const SizedBox(height: 20),

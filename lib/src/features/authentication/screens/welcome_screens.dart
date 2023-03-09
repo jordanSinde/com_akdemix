@@ -23,7 +23,7 @@ class _WelcomeScreenState extends ConsumerState<WelcomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.asset(
-                    "assets/image1.png",
+                    "assets/images/image1.png",
                     height: 300,
                   ),
                   const SizedBox(height: 20),
