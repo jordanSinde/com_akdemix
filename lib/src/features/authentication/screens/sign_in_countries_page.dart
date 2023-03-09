@@ -28,6 +28,7 @@ class CountriesPage extends StatelessWidget {
             ),
             itemBuilder: (BuildContext context, int index) {
               final country = authService.countries[index];
+
               return _countryListTile(context, ref, country);
             },
           );
